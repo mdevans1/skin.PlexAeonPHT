@@ -197,7 +197,7 @@
             <info>ListItem.Icon</info>
 			<texture>$INFO[ListItem.Art(thumb)]</texture>
 			<aspectratio>scale</aspectratio>
-			<visible>Container.Content(episode) | Container.Content(clip)</visible>	
+			<visible>Container.Content(episode) | Container.Content(clip) | Container.Content(channel)</visible>	
 		</control>
 
 		<control type="largeimage">
@@ -915,7 +915,7 @@
 		<posy>45</posy>
 		<width>695</width>
 		<height>569</height>
-		<visible>Container.Content(episode) | Container.Content(clip)</visible>
+		<visible>Container.Content(episode) | Container.Content(clip) | Container.Content(Channel)</visible>
 		
 		<control type="image">
 			<description>background image</description>
